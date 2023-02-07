@@ -1,0 +1,7 @@
+#!/bin/bash
+#PBS -P PANDORA                 
+#PBS -l select=1:ncpus=1:mem=4GB 
+#PBS -l walltime=10:00:00   
+
+cd /project/RDS-FSC-ISSSM-RW/ali-test
+./code/wallpaper.exe 1 bowtie all
